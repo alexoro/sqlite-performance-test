@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+    <Button
+            android:id="@+id/index_equal_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Index Equal Test" />
+    <Button
+            android:id="@+id/index_range_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Index Range Test" />
+    <Button
+            android:id="@+id/placeholder_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Placeholder Test" />
+    <Button
+            android:id="@+id/wal_write_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WAL Write Test" />
+    <Button
+            android:id="@+id/wal_commit_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WAL Commit Test" />
+</LinearLayout>
